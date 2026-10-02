@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "mera",
+  "version": "1.0.0",
+  "name": "MΞRA Client",
+  "description": "Lunar-style title screen for MΞRA Client",
+  "environment": "client",
+  "entrypoints": { "client": ["net.mera.MeraClient"] },
+  "mixins": ["mera.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "1.21.11", "fabric-api": "*" }
+}
